@@ -6,9 +6,9 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 boot()
 
-st.title('Cat Breed Search')
+st.title('Find a cat')
 
-title = st.text_input("Cat Breed", "Siamese")
+title = st.text_input("type the cat breed that you want to find", "Siamese")
 
 if st.button("Find Image"):
     st.write(f"Finding image for {title}...")
